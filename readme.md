@@ -20,6 +20,8 @@ Voir fichier "docker-compose.yml" pour la conteneurisation des différents servi
 
 Voici ci-dessous une explication du fichier de configuration pour la mise en place de la pipeline utilisée par Logstash pour lier MySQL à Elesticsearch : 
 
+[documentation pipeline elasticsearch / mysql](https://www.elastic.co/guide/en/cloud/current/ec-getting-started-search-use-cases-db-logstash.html)
+
 ```bash
 input {
   jdbc {
